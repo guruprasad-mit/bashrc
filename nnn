@@ -1,0 +1,13 @@
+PS1="\u\w\\$ "
+if [[ -z "$DISPLAY" ]]
+then
+    DISPLAY=":0"
+    export DISPLAY
+fi
+
+export NNN_OPENER=xdg-open
+export NNN_OPENER=gvfs-open
+export NNN_BMS="h:/home/guru;t:/home/guru/RESEARCH/THESIS;r:/home/guru/RESEARCH/THESIS/Report;d:/home/guru/DOWNLOADS;m:/mnt/DATA"
+export NNN_CONTEXT_COLORS="2138"
+export EDITOR='leafpad'
+export VISUAL='leafpad'
